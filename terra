@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Terra Verde — Irrigação Sustentável</title>
+
+  <style>
+    :root {
+      --bg: #f9f5ec;
+      --card: #ffffff;
+      --primary: #317f54;
+      --secondary: #7a9729;
+      --accent: #fad406;
+      --text: #1b1b1b;
+      --muted: #6b7280;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 25px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    }
+
+    header p {
+      margin: 5px 0 0;
+      opacity: 0.9;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: var(--accent);
+      font-weight: bold;
+    }
+
+    section {
+      background: var(--card);
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+      border-left: 6px solid var(--secondary);
+    }
+
+    h2 {
+      color: var(--secondary);
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .botao {
+      display: inline-block;
+      margin-top: 12px;
+      background: var(--accent);
+      color: #000;
+      padding: 10px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .botao:hover {
+      opacity: 0.85;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <h1>🌱 Terra Verde</h1>
+      <p>Sistema Inteligente de Irrigação Sustentável</p>
+
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#funcionamento">Funcionamento</a>
+        <a href="#beneficios">Benefícios</a>
+      </nav>
+    </header>
+
+    <section id="sobre">
+      <h2>Sobre o Projeto</h2>
+      <p>
+        O Terra Verde é um sistema inovador que utiliza sensores de umidade para controlar automaticamente a irrigação do solo,
+        garantindo eficiência no uso da água e contribuindo para práticas agrícolas sustentáveis.
+      </p>
+    </section>
+
+    <section id="funcionamento">
+      <h2>Como Funciona</h2>
+      <p>
+        Sensores monitoram constantemente a umidade da terra. Quando o nível está abaixo do ideal, o sistema ativa a irrigação automaticamente.
+        Assim que o solo atinge o nível adequado, a irrigação é interrompida.
+      </p>
+    </section>
+
+    <section id="beneficios">
+      <h2>Benefícios</h2>
+      <ul>
+        <li>Redução do desperdício de água</li>
+        <li>Automatização completa</li>
+        <li>Maior eficiência agrícola</li>
+        <li>Sustentabilidade ambiental</li>
+      </ul>
+
+      <a href="#" class="botao">Saiba mais</a>
+    </section>
+
+    <footer>
+      <p>© 2026 Terra Verde — Tecnologia e Sustentabilidade</p>
+    </footer>
+
+  </div>
+</body>
+</html>
